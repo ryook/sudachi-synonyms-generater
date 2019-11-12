@@ -16,7 +16,7 @@ WorksApplicationsが公開している[Sudachi同義語辞書](https://github.co
 
 
 ```
-> python generater output.csv --fields=企業,組織
+> python generater.py output.csv --fields=企業,組織
 ```
 
 
