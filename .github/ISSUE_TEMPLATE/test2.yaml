@@ -10,7 +10,6 @@ body:
     id: complete
     attributes:
       label: 完了条件
-      render: shell
     validations:
       required: false
   - type: input
