@@ -1,0 +1,76 @@
+name: Task Template
+description: Standard template for tracking tasks
+labels: ['task']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 目的/方針
+  - type: checklist
+    attributes:
+      label: "目的/方針"
+      options:
+        - label: 目的/方針の記載
+        - label: 目的/方針の合意
+
+  - type: markdown
+    attributes:
+      value: |
+        ## データ取得・分析データセット作成
+  - type: checklist
+    attributes:
+      label: "データ取得・分析データセット作成"
+      options:
+        - label: 分析期間のうち一部日付のデータを取得・分析データセット作成
+          - クエリやコードを再現できる状態にする
+          - 分布を確認しておく
+        - label: データレビュー
+        - label: 分析対象全期間のデータ取得・分析データセット作成
+          - クエリやコードを再現できる状態にする
+          - 分布を確認しておく
+          - データを共有できるようにしておく
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 前処理
+  - type: checklist
+    attributes:
+      label: "前処理"
+      options:
+        - label: 前処理直後のデータを共有できるようにしておく
+        - label: 前処理レビュー
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 分析・評価
+  - type: checklist
+    attributes:
+      label: "分析・評価"
+      options:
+        - label: 分析・評価
+        - label: 分析・評価レビュー
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 共有
+  - type: checklist
+    attributes:
+      label: "共有"
+      options:
+        - label: POに共有
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 振り返り・改善
+  - type: checklist
+    attributes:
+      label: "振り返り・改善"
+      options:
+        - label: 振り返り・型の修正・ライブラリの更新・viewの作成
+          - ABtestの評価はシンプル版をライブラリに追加する
+          - データの取得と前処理もライブラリに追加する
