@@ -6,10 +6,11 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
+  - type: textarea
     id: complete
     attributes:
       label: 完了条件
+      render: shell
     validations:
       required: false
   - type: input
