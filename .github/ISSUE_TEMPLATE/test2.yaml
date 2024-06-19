@@ -13,13 +13,13 @@ body:
     validations:
       required: false
 　　　　- type: textarea
-    id: complete
+    id: background
     attributes:
       label: 背景/目的
     validations:
       required: false
 　　　　- type: markdown
-    id: complete
+    id: todo
     attributes:
       label: TODO
 　　　　　　　　　　　　　placeholder: |
@@ -27,13 +27,13 @@ body:
     validations:
       required: false
 　　　- type: textarea
-    id: complete
+    id: remarks
     attributes:
       label: 備考
     validations:
       required: false
 　　　 - type: dropdown
-    id: labels
+    id: sp
     attributes:
       label: "sp"
       description: "適用するラベルを選択してください"
