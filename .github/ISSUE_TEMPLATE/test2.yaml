@@ -22,7 +22,7 @@ body:
     id: todo
     attributes:
       label: TODO
-    placeholder: |
+      placeholder: |
         - [ ] aaa
     validations:
       required: false
