@@ -12,27 +12,27 @@ body:
       label: 完了条件
     validations:
       required: false
-　　　　- type: textarea
+  - type: textarea
     id: background
     attributes:
       label: 背景/目的
     validations:
       required: false
-　　　　- type: markdown
+  - type: markdown
     id: todo
     attributes:
       label: TODO
-　　　　　　　　　　　　　placeholder: |
+    placeholder: |
         - [ ] aaa
     validations:
       required: false
-　　　- type: textarea
+  - type: textarea
     id: remarks
     attributes:
       label: 備考
     validations:
       required: false
-　　　 - type: dropdown
+  - type: dropdown
     id: sp
     attributes:
       label: "sp"
