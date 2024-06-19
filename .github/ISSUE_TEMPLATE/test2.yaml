@@ -6,19 +6,19 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
+  - type: input
     id: complete
     attributes:
       label: 完了条件
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: background
     attributes:
       label: 背景/目的
     validations:
       required: false
-  - type: markdown
+  - type: input
     id: todo
     attributes:
       label: TODO
@@ -26,7 +26,7 @@ body:
         - [ ] aaa
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: remarks
     attributes:
       label: 備考
