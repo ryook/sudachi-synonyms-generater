@@ -1,0 +1,46 @@
+name: search 
+description: File a bug report.
+title: "検索基盤G: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: complete
+    attributes:
+      label: 完了条件
+    validations:
+      required: false
+　　　　- type: textarea
+    id: complete
+    attributes:
+      label: 背景/目的
+    validations:
+      required: false
+　　　　- type: markdown
+    id: complete
+    attributes:
+      label: TODO
+　　　　　　　　　　　　　placeholder: |
+        - [ ] aaa
+    validations:
+      required: false
+　　　- type: textarea
+    id: complete
+    attributes:
+      label: 備考
+    validations:
+      required: false
+　　　 - type: dropdown
+    id: labels
+    attributes:
+      label: "sp"
+      description: "適用するラベルを選択してください"
+      multiple: false
+      options:
+        - "sp:1"
+        - "sp:2"
+        - "sp:3"
+        - "sp:5"
+        - "sp:8"
